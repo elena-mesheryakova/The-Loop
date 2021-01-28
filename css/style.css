@@ -59,10 +59,105 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Обнуление*/
 body {
-  background-color: #2e2e22;
   font-family: "Montserrat", sans-serif;
   font-weight: normal; }
+  body .page-light {
+    background-color: #f9f6f1; }
+  body .page-dark {
+    background-color: #212121; }
   body .container {
     width: 1130px;
     margin: 0 auto;
     padding: 0 10px; }
+  body .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 126px;
+    padding-top: 40px; }
+    body .header .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      body .header .nav_item {
+        margin-right: 52px; }
+        body .header .nav_item:last-child {
+          margin-right: 0; }
+      body .header .nav_link {
+        color: black;
+        font-weight: 500; }
+    body .header .cart {
+      background: url(../images/cart.svg) no-repeat 0 center;
+      padding-left: 90px;
+      display: block;
+      width: 30px;
+      height: 30px; }
+      body .header .cart_count {
+        background: url(http://infotpvers.temp.swtest.ru/img/cart-bg.svg) no-repeat 0 center;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 24px;
+        display: block;
+        margin-left: -45px; }
+  body .btn {
+    background-color: #d7b399;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 18px 28px; }
+  body .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    body .main_item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%; }
+    body .main .sale_subtitle {
+      font-size: 30px;
+      margin-top: 25px; }
+    body .main .sale_title {
+      font-size: 55px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 65px; }
+  body .products {
+    position: relative;
+    margin-bottom: 130px; }
+    body .products_price {
+      position: absolute;
+      right: 0;
+      top: 35px;
+      text-align: right; }
+      body .products_price-old {
+        font-size: 24px;
+        font-weight: 700; }
+      body .products_price-new {
+        font-size: 42px;
+        font-weight: 700;
+        color: #d84033;
+        margin-top: 17px; }
+  body .info {
+    text-align: center;
+    color: #fff;
+    padding: 80px 0 70px; }
+    body .info_title {
+      font-size: 30px;
+      text-transform: uppercase; }
+      body .info_title span {
+        font-weight: 700; }
+    body .info_subtitle {
+      font-size: 21px;
+      font-weight: 300;
+      padding-top: 20px; }

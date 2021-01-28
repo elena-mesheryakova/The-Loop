@@ -13,23 +13,57 @@
     <title>The Loop</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <nav>
-          <ul class="nav">
-            <li class="nav_item">Для мужчин</li>
-            <li class="nav_item">Для женщин</li>
-            <li class="nav_item">Для детей</li>
-          </ul>
-        </nav>
-        <img src="./images/logo.svg" alt="" />
-        <nav>
-          <ul class="nav">
-            <li class="nav_item">Оплата</li>
-            <li class="nav_item">Доставка</li>
-          </ul>
-        </nav>
-      </header>
+    <div class="page page-light">
+      <div class="container">
+        <header class="header">
+          <nav>
+            <ul class="nav">
+              <li class="nav_item">
+                <a class="nav_link" href="">Для мужчин</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="">Для женщин</a>
+              </li>
+              <li class="nav_item">
+                <a class="nav_link" href="">Для детей</a>
+              </li>
+            </ul>
+          </nav>
+          <img src="./images/logo.svg" alt="" />
+          <nav>
+            <ul class="nav">
+              <li class="nav_item"><a class="nav_link" href="">Оплата</a></li>
+              <li class="nav_item"><a class="nav_link" href="">Доставка</a></li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <span class="cart_count">5</span>
+          </div>
+        </header>
+        <div class="main">
+          <div class="main_item sale">
+            <p class="sale_subtitle">Зимняя распродажа</p>
+            <h1 class="sale_title">скидки до 90%</h1>
+            <a href="" class="btn">смотреть модели</a>
+          </div>
+          <div class="main_item products">
+            <div class="products_price">
+              <strike class="products_price-old">9 900 ₽</strike>
+              <p class="products_price-new">1 900 ₽</p>
+            </div>
+            <img class="products_img" src="./images/shoes.png" alt="Shoes" />
+          </div>
+        </div>
+        <!--header-->
+      </div>
+      <!--container-->
+    </div>
+    <!--page-light-->
+    <div class="page page-dark info">
+      <div class="container">
+        <h1 class="info_title"><span>бесплатная доставка</span> от 3000 ₽</h1>
+        <p class="info_subtitle">Сделайте заказ и получите подарок!</p>
+      </div>
     </div>
   </body>
 </html>
