@@ -93,19 +93,43 @@ body {
         color: black;
         font-weight: 500; }
     body .header .cart {
-      background: url(../images/cart.svg) no-repeat 0 center;
-      padding-left: 90px;
-      display: block;
-      width: 30px;
-      height: 30px; }
-      body .header .cart_count {
-        background: url(http://infotpvers.temp.swtest.ru/img/cart-bg.svg) no-repeat 0 center;
-        color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body .header .cart .cart_cart {
+        background: url(../images/cart.svg) no-repeat 0 center;
+        width: 30px;
+        height: 30px; }
+      body .header .cart .cart_count {
+        background-color: #d7b399;
+        color: #fff;
         font-size: 12px;
         font-weight: 700;
-        padding: 10px 24px;
-        display: block;
-        margin-left: -45px; }
+        padding-left: 12px;
+        padding-right: 10px;
+        height: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative; }
+        body .header .cart .cart_count::after {
+          content: "";
+          position: absolute;
+          display: block;
+          right: 100%;
+          border-top: 8px solid transparent;
+          border-right: 16px solid #d7b399;
+          border-bottom: 8px solid transparent; }
   body .btn {
     background-color: #d7b399;
     color: #fff;
