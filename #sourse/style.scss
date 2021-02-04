@@ -43,7 +43,7 @@ body {
       width: 90px;
       justify-content: space-between;
       align-items: center;
-
+      background-color: #f9f6f1;
       .cart_cart {
         background: url(../images/cart.svg) no-repeat 0 center;
         width: 30px;
@@ -139,6 +139,9 @@ body {
         color: #d84033;
         margin-top: 17px;
       }
+    }
+    &_img {
+      width: 100%;
     }
   }
   .info {
@@ -240,6 +243,15 @@ body {
       &-img {
         margin-right: 10px;
       }
+    }
+  }
+  .sub_footer {
+    display: flex;
+    justify-content: space-between;
+    &-text {
+      font-size: 14px;
+      line-height: 1.2;
+      padding: 20px 0;
     }
   }
 }
