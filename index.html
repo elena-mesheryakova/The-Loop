@@ -13,211 +13,238 @@
     <title>The Loop</title>
   </head>
   <body>
-    <div class="page page-light">
-      <div class="container">
-        <header class="header">
-          <nav>
-            <ul class="nav">
-              <li class="nav_item">
-                <a class="nav_link" href="">Для мужчин</a>
-              </li>
-              <li class="nav_item">
-                <a class="nav_link" href="">Для женщин</a>
-              </li>
-              <li class="nav_item">
-                <a class="nav_link" href="">Для детей</a>
-              </li>
-            </ul>
-          </nav>
-          <img src="./images/logo.svg" alt="" />
-          <nav>
-            <ul class="nav">
-              <li class="nav_item"><a class="nav_link" href="">Оплата</a></li>
-              <li class="nav_item"><a class="nav_link" href="">Доставка</a></li>
-            </ul>
-          </nav>
-          <button class="cart">
-            <div class="cart_cart"></div>
-            <div class="cart_count">5</div>
-          </button>
-        </header>
-        <div class="main">
-          <div class="main_item sale">
-            <p class="sale_subtitle">Зимняя распродажа</p>
-            <h1 class="sale_title">скидки до 90%</h1>
-            <a href="" class="btn">смотреть модели</a>
+    <div class="wrapper-body">
+      <div class="menu">
+        <a href="#" class="menu-btn">
+          <span></span>
+        </a>
+        <nav class="menu-list">
+          <div class="menu-list_logo">
+            <img src="./images/logo.svg" alt="" />
           </div>
-          <div class="main_item products">
-            <div class="products_price">
-              <strike class="products_price-old">9 900 ₽</strike>
-              <p class="products_price-new">1 900 ₽</p>
+
+          <a href="#">Для мужчин</a>
+          <a href="#">Для женщин</a>
+          <a href="#">Для детей</a>
+          <a href="#">Оплата</a>
+          <a href="#">Доставка</a>
+        </nav>
+        <!--код для выезжающего меню-->
+      </div>
+      <div class="page page-light">
+        <div class="container">
+          <header class="header">
+            <nav>
+              <ul class="nav">
+                <li class="nav_item">
+                  <a class="nav_link" href="">Для мужчин</a>
+                </li>
+                <li class="nav_item">
+                  <a class="nav_link" href="">Для женщин</a>
+                </li>
+                <li class="nav_item">
+                  <a class="nav_link" href="">Для детей</a>
+                </li>
+              </ul>
+            </nav>
+            <img class="nav_logo" src="./images/logo.svg" alt="" />
+            <nav>
+              <ul class="nav">
+                <li class="nav_item"><a class="nav_link" href="">Оплата</a></li>
+                <li class="nav_item">
+                  <a class="nav_link" href="">Доставка</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="cart">
+              <div class="cart_cart"></div>
+              <div class="cart_count">5</div>
+            </button>
+          </header>
+          <div class="main">
+            <div class="main_item sale">
+              <p class="sale_subtitle">Зимняя распродажа</p>
+              <h1 class="sale_title">скидки до 90%</h1>
+              <a href="" class="btn">смотреть модели</a>
             </div>
-            <img class="products_img" src="./images/shoes.png" alt="Shoes" />
+            <div class="main_item products">
+              <div class="products_price">
+                <strike class="products_price-old">9 900 ₽</strike>
+                <p class="products_price-new">1 900 ₽</p>
+              </div>
+              <img class="products_img" src="./images/shoes.png" alt="Shoes" />
+            </div>
           </div>
+          <!--header-->
         </div>
-        <!--header-->
+        <!--container-->
       </div>
-      <!--container-->
-    </div>
-    <!--page-light-->
-    <div class="page page-dark info">
-      <div class="container">
-        <h1 class="info_title"><span>бесплатная доставка</span> от 3000 ₽</h1>
-        <p class="info_subtitle">Сделайте заказ и получите подарок!</p>
-      </div>
-    </div>
-    <!--page-dark-->
-    <div class="page-light">
-      <div class="container">
-        <div class="collection">
-          <div class="collection_item collection_man">
-            <h2 class="collection_title">мужская коллекция</h2>
-            <p class="collection_text">Обувь, полуверы, костюмы</p>
-            <a class="btn btn-xs" href=""
-              ><img src="./images/Arrow.svg" alt="Arrow"
-            /></a>
-          </div>
-          <div class="collection_item collection_woman">
-            <h2 class="collection_title">женская коллекция</h2>
-            <p class="collection_text">Обувь, полуверы, костюмы</p>
-            <a class="btn btn-xs" href=""
-              ><img src="./images/Arrow.svg" alt="Arrow"
-            /></a>
-          </div>
+      <!--page-light-->
+      <div class="page page-dark info">
+        <div class="container">
+          <h1 class="info_title"><span>бесплатная доставка</span> от 3000 ₽</h1>
+          <p class="info_subtitle">Сделайте заказ и получите подарок!</p>
         </div>
       </div>
-    </div>
-    <!--collection-->
-    <div class="page">
-      <div class="container">
-        <h2 class="title_h2">Новые модели</h2>
-        <div class="product">
-          <div class="product_item">
-            <img src="./images/product.png" alt="product" />
-            <p class="product_title">
-              Коктейльное <br />
-              платье
-            </p>
-            <p class="product_price">₽ 40 000</p>
-          </div>
-          <div class="product_item">
-            <img src="./images/product1.png" alt="product" />
-            <p class="product_title">Футболка <br />черная</p>
-            <p class="product_price">₽ 10 000</p>
-          </div>
-          <div class="product_item">
-            <img src="./images/product.png" alt="product" />
-            <p class="product_title">Коктейльное <br />платье</p>
-            <p class="product_price">₽ 40 000</p>
-          </div>
-          <div class="product_item">
-            <img src="./images/product1.png" alt="product" />
-            <p class="product_title">Футболка <br />черная</p>
-            <p class="product_price">₽ 10 000</p>
+      <!--page-dark-->
+      <div class="page-light">
+        <div class="container">
+          <div class="collection">
+            <div class="collection_item collection_man">
+              <h2 class="collection_title">мужская коллекция</h2>
+              <p class="collection_text">Обувь, полуверы, костюмы</p>
+              <a class="btn btn-xs" href=""
+                ><img src="./images/Arrow.svg" alt="Arrow"
+              /></a>
+            </div>
+            <div class="collection_item collection_woman">
+              <h2 class="collection_title">женская коллекция</h2>
+              <p class="collection_text">Обувь, полуверы, костюмы</p>
+              <a class="btn btn-xs" href=""
+                ><img src="./images/Arrow.svg" alt="Arrow"
+              /></a>
+            </div>
           </div>
         </div>
-        <a href="" class="btn btn-center"
-          ><span>Все модели</span><img src="./images/Arrow.svg" alt="Arrow"
-        /></a>
       </div>
-    </div>
-    <!--product-->
-    <div class="page-dark">
-      <div class="container">
-        <footer class="footer">
-          <div class="footer_logo">
-            <img src="./images/logo-derk.svg" alt="Logo" />
+      <!--collection-->
+      <div class="page">
+        <div class="container">
+          <h2 class="title_h2">Новые модели</h2>
+          <div class="product">
+            <div class="product_item">
+              <img src="./images/product.png" alt="product" />
+              <p class="product_title">
+                Коктейльное <br />
+                платье
+              </p>
+              <p class="product_price">₽ 40 000</p>
+            </div>
+            <div class="product_item">
+              <img src="./images/product1.png" alt="product" />
+              <p class="product_title">Футболка <br />черная</p>
+              <p class="product_price">₽ 10 000</p>
+            </div>
+            <div class="product_item">
+              <img src="./images/product.png" alt="product" />
+              <p class="product_title">Коктейльное <br />платье</p>
+              <p class="product_price">₽ 40 000</p>
+            </div>
+            <div class="product_item">
+              <img src="./images/product1.png" alt="product" />
+              <p class="product_title">Футболка <br />черная</p>
+              <p class="product_price">₽ 10 000</p>
+            </div>
           </div>
-          <div class="footer_nav">
-            <ul class="footer_list">
-              <li class="footer_list-item footer_list-title">
-                Основные ссылки
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">О компании</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Каталог</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Доставка</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Оплата</a>
-              </li>
-            </ul>
-            <ul class="footer_list">
-              <li class="footer_list-item footer_list-title">Категории</li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Мужская одежда</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Женская одежда</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Детская одежда</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Для животных</a>
-              </li>
-            </ul>
-            <ul class="footer_list">
-              <li class="footer_list-item footer_list-title">
-                Полезные ссылки
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Таблица размеров</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Блог о моде</a>
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link">Наша миссия</a>
-              </li>
-            </ul>
-            <ul class="footer_list">
-              <li class="footer_list-item footer_list-title">Соц сети</li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link"
-                  ><img
-                    class="footer_list-img"
-                    src="./images/icons/vk.svg"
-                    alt="VK.com"
-                  />VK.com</a
-                >
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link"
-                  ><img
-                    class="footer_list-img"
-                    src="./images/icons/fb.svg"
-                    alt="Facebook"
-                  />Facebook</a
-                >
-              </li>
-              <li class="footer_list-item">
-                <a href="" class="footer_list-link"
-                  ><img
-                    class="footer_list-img"
-                    src="./images/icons/inst.svg"
-                    alt="Instagram"
-                  />Instagram</a
-                >
-              </li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-    </div>
-    <!--footer-->
-    <div class="page">
-      <div class="container">
-        <div class="sub_footer">
-          <p class="sub_footer-text">Copyright © 2019. Все права защищены</p>
-          <p class="sub_footer-text">Политика приватности</p>
+          <a href="" class="btn btn-center"
+            ><span>Все модели</span><img src="./images/Arrow.svg" alt="Arrow"
+          /></a>
         </div>
       </div>
+      <!--product-->
+      <div class="page-dark">
+        <div class="container">
+          <footer class="footer">
+            <div class="footer_logo">
+              <img src="./images/logo-derk.svg" alt="Logo" />
+            </div>
+            <div class="footer_nav">
+              <ul class="footer_list">
+                <li class="footer_list-item footer_list-title">
+                  Основные ссылки
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">О компании</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Каталог</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Доставка</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Оплата</a>
+                </li>
+              </ul>
+              <ul class="footer_list">
+                <li class="footer_list-item footer_list-title">Категории</li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Мужская одежда</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Женская одежда</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Детская одежда</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Для животных</a>
+                </li>
+              </ul>
+              <ul class="footer_list">
+                <li class="footer_list-item footer_list-title">
+                  Полезные ссылки
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Таблица размеров</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Блог о моде</a>
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link">Наша миссия</a>
+                </li>
+              </ul>
+              <ul class="footer_list">
+                <li class="footer_list-item footer_list-title">Соц сети</li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link"
+                    ><img
+                      class="footer_list-img"
+                      src="./images/icons/vk.svg"
+                      alt="VK.com"
+                    />VK.com</a
+                  >
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link"
+                    ><img
+                      class="footer_list-img"
+                      src="./images/icons/fb.svg"
+                      alt="Facebook"
+                    />Facebook</a
+                  >
+                </li>
+                <li class="footer_list-item">
+                  <a href="" class="footer_list-link"
+                    ><img
+                      class="footer_list-img"
+                      src="./images/icons/inst.svg"
+                      alt="Instagram"
+                    />Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <!--footer-->
+      <div class="page">
+        <div class="container">
+          <div class="sub_footer">
+            <p class="sub_footer-text">Copyright © 2019. Все права защищены</p>
+            <p class="sub_footer-text">Политика приватности</p>
+          </div>
+        </div>
+      </div>
+      <!--sub_footer-->
     </div>
-    <!--sub_footer-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
